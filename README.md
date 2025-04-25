@@ -2,7 +2,7 @@
 This repository contains my project for the DSA210 course 
 ## Part 2: Data Collection, EDA, and Hypothesis Testing
 
-### 🔍 Data Collection
+###  Data Collection
 
 For this project, I am working with traffic accident data in Istanbul, enriched with weather data. The primary dataset is publicly available from the [Istanbul Metropolitan Municipality Open Data Portal](https://data.ibb.gov.tr/). It includes detailed records of traffic accidents, including time, location, and type of accident.
 
@@ -12,7 +12,7 @@ All datasets were collected using APIs and CSV downloads, and combined using pan
 
 ---
 
-### 📊 Exploratory Data Analysis (EDA)
+###  Exploratory Data Analysis (EDA)
 
 Some of the key exploratory steps taken:
 
@@ -28,7 +28,7 @@ Some of the key exploratory steps taken:
 
 ---
 
-### 🧪 Hypothesis Testing
+###  Hypothesis Testing
 
 Several hypothesis tests were conducted to validate assumptions:
 
@@ -48,7 +48,7 @@ Several hypothesis tests were conducted to validate assumptions:
 
 ---
 
-### 🧹 Data Cleaning Notes
+###  Data Cleaning Notes
 
 - Removed duplicate records and filled missing weather values using time-based interpolation.
 - Filtered out data from national holidays to eliminate outlier effects.
@@ -56,7 +56,7 @@ Several hypothesis tests were conducted to validate assumptions:
 
 ---
 
-### 🔎 Summary of Key Findings
+###  Summary of Key Findings
 
 - **Temporal Trends**: Most accidents occur during morning (7–9 AM) and evening (5–7 PM) rush hours.
 - **Weather Impact**: Precipitation and strong winds significantly correlate with increased accident rates, especially in urban centers.
@@ -66,7 +66,7 @@ Several hypothesis tests were conducted to validate assumptions:
 
 ---
 
-### ✅ Strengths of the Analysis
+###  Strengths of the Analysis
 
 - **Rich Dataset Integration**: Combining weather and traffic data provided more context to draw meaningful insights.
 - **Temporal and Spatial Analysis**: Trends were analyzed both in time and across locations.
@@ -74,7 +74,7 @@ Several hypothesis tests were conducted to validate assumptions:
 
 ---
 
-### ⚠️ Limitations and Challenges
+###  Limitations and Challenges
 
 - **Missing Data**: Some weather observations were missing or inconsistent, especially from rural stations.
 - **Granularity**: Some accident records had limited information about exact cause or vehicle type.
@@ -82,7 +82,7 @@ Several hypothesis tests were conducted to validate assumptions:
 
 ---
 
-### 🔮 Next Steps (For Part 3)
+###  Next Steps (For Part 3)
 
 - **Feature Engineering**: Create binary features for "rainy day", "weekend", and "peak hour" to improve prediction accuracy.
 - **Machine Learning Models**: Apply classification models (e.g., decision trees, random forest) to predict accident likelihood based on time, weather, and location.

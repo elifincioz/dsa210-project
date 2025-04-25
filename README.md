@@ -4,11 +4,9 @@ This repository contains my project for the DSA210 course
 
 ###  Data Collection
 
-For this project, I am working with traffic accident data in Istanbul, enriched with weather data. The primary dataset is publicly available from the [Istanbul Metropolitan Municipality Open Data Portal](https://data.ibb.gov.tr/). It includes detailed records of traffic accidents, including time, location, and type of accident.
+I'm working on this project using Istanbul traffic accident data that has been enhanced with meteorological data. The [Istanbul Metropolitan Municipality Open Data Portal](https://data.ibb.gov.tr/) makes the principal dataset accessible to the general public. It has thorough records of road accidents, including the accident's type, time, and location.
 
-To enrich this data, I integrated historical weather data from [Open-Meteo](https://open-meteo.com/), focusing on key variables such as temperature, precipitation, humidity, and wind speed. The weather data is matched by time and district to align with the accident records.
-
-All datasets were collected using APIs and CSV downloads, and combined using pandas.
+I used historical meteorological data from [Open-Meteo](https://open-meteo.com/) to enhance this data, paying particular attention to important variables like temperature, precipitation, humidity, and wind speed. To match the
 
 ---
 
@@ -22,11 +20,9 @@ Some of the key exploratory steps taken:
 - **Weather Influence**: Merged weather data with accidents to examine how rain, temperature, or fog relate to accident frequency.
 
 **Key Visualizations:**
-- Histogram of accident counts by hour of day (peak hours clearly visible)
-- Heatmap of accident frequency across districts
-- Scatterplots of accident count vs. precipitation and wind speed
-
----
+- The accident count histogram by hour of the day, with the peak hours plainly visible
+- A heatmap showing the incidence of accidents per district
+- Scatterplots showing the number of accidents in relation to wind and precipitation
 
 ###  Hypothesis Testing
 
@@ -50,9 +46,9 @@ Several hypothesis tests were conducted to validate assumptions:
 
 ###  Data Cleaning Notes
 
-- Removed duplicate records and filled missing weather values using time-based interpolation.
-- Filtered out data from national holidays to eliminate outlier effects.
-- Standardized time formats and ensured alignment between accident timestamps and weather data.
+- Duplicate records were eliminated, and time-based interpolation was used to fill in missing weather variables.
+- To get rid of outlier effects, data from national holidays was filtered out.
+- Time formats were standardized, and the alignment of meteorological data and accident timestamps was guaranteed.
 
 ---
 
